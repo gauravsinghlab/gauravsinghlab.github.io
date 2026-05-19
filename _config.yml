@@ -2,8 +2,8 @@ title: GS Research Group
 short_title: GS Research Group
 subtitle: SNU
 description: Research group website for cellular systems, disease mechanisms, and quantitative biology.
-url: ""
-baseurl: ""
+url: "https://lostinwild.github.io"
+baseurl: "/gauravsingh.github.io"
 
 email: lab.email@example.edu
 github_url: https://github.com/
