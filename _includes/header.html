@@ -1,0 +1,19 @@
+<header class="site-header">
+  <nav class="nav-wrap" aria-label="Primary navigation">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <span class="brand-mark">GS</span>
+      <span>{{ site.short_title }} <small>{{ site.subtitle }}</small></span>
+    </a>
+    <ul class="nav-links">
+      {% for item in site.nav %}
+        {% assign current = false %}
+        {% if page.url == item.url %}
+          {% assign current = true %}
+        {% elsif item.url != '/' and page.url contains item.url %}
+          {% assign current = true %}
+        {% endif %}
+        <li><a {% if current %}aria-current="page"{% endif %} href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>

@@ -1,0 +1,9 @@
+- tag: Imaging
+  title: Live and Fixed-Sample Microscopy
+  description: Capture cell behaviors, tissue organization, and spatial patterns across experimental conditions.
+- tag: Molecular
+  title: Genetic and Biochemical Perturbation
+  description: Test causality with targeted perturbations, reporter systems, and pathway-level assays.
+- tag: Computation
+  title: Omics and Image Analysis
+  description: Integrate high-dimensional data with reproducible computational workflows.

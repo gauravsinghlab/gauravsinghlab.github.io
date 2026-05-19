@@ -359,6 +359,18 @@ a:hover {
   line-height: 1.25;
 }
 
+.publication-card h3 a,
+.news-card h3 a {
+  color: var(--ink);
+  text-decoration-color: rgba(25, 32, 38, 0.24);
+}
+
+.publication-card h3 a:hover,
+.news-card h3 a:hover {
+  color: var(--teal-dark);
+  text-decoration-color: currentColor;
+}
+
 .feature-card p,
 .person-card p,
 .publication-card p,

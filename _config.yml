@@ -1,0 +1,36 @@
+title: GS Research Group
+short_title: GS Research Group
+subtitle: SNU
+description: Research group website for cellular systems, disease mechanisms, and quantitative biology.
+url: ""
+baseurl: ""
+
+email: lab.email@example.edu
+github_url: https://github.com/
+orcid_url: https://orcid.org/
+scholar_url: https://scholar.google.com/
+
+nav:
+  - title: Home
+    url: /
+  - title: Research
+    url: /research/
+  - title: Members
+    url: /members/
+  - title: Publications
+    url: /publications/
+  - title: News
+    url: /news/
+  - title: Gallery
+    url: /gallery/
+  - title: Contact
+    url: /contact/
+
+permalink: pretty
+timezone: Asia/Kolkata
+
+plugins:
+  - jekyll-feed
+
+exclude:
+  - README.md

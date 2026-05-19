@@ -1,0 +1,12 @@
+- year: 2026
+  items:
+    - title: Publication title to be added
+      meta: Authors, journal, DOI, and publication year.
+    - title: Preprint title to be added
+      meta: Authors, preprint server, DOI, and posting year.
+- year: 2025
+  items:
+    - title: Publication title to be added
+      meta: Authors, journal, DOI, and publication year.
+    - title: Methods paper title to be added
+      meta: Authors, journal, DOI, and publication year.

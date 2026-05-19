@@ -1,0 +1,16 @@
+- initials: PI
+  name: Principal Investigator
+  role: Group Leader
+  bio: Add a concise biography, research vision, training history, and links to CV, Google Scholar, ORCID, or institutional profile.
+- initials: DR
+  name: Doctoral Researcher
+  role: PhD Student
+  bio: Project title, background, fellowship information, and research interests can go here.
+- initials: MS
+  name: Master's Student
+  role: Graduate Student
+  bio: Add thesis area, techniques, and expected graduation year.
+- initials: UR
+  name: Undergraduate Researcher
+  role: Intern / Project Student
+  bio: Summarize the student's project, program, and mentorship structure.
