@@ -1,4 +1,7 @@
 _site/
+_preview_site/
+__pycache__/
+*.py[cod]
 .jekyll-cache/
 .sass-cache/
 .bundle/
