@@ -29,7 +29,19 @@ Replace placeholder names, emails, addresses, publications, and group text with 
 
 ## Preview Locally
 
-If Ruby is installed:
+This repo includes a lightweight local preview helper that does not require Ruby:
+
+```powershell
+.\preview.ps1
+```
+
+Then open:
+
+```text
+http://127.0.0.1:4000/
+```
+
+If Ruby is installed, the full Jekyll preview also works:
 
 ```powershell
 bundle install
@@ -47,3 +59,32 @@ Then open the local URL Jekyll prints, usually `http://127.0.0.1:4000/`.
 5. Save. GitHub will publish the site at the Pages URL shown in the settings.
 
 GitHub Pages will build the Jekyll site automatically.
+
+## Working Across Computers
+
+Use GitHub as the source of truth. Before switching computers:
+
+```powershell
+git status
+git add .
+git commit -m "Describe current website changes"
+git push
+```
+
+On another computer:
+
+```powershell
+git clone https://github.com/gauravsinghlab/gauravsinghlab.github.io.git
+```
+
+or, if already cloned:
+
+```powershell
+git pull
+```
+
+Then open a new Codex session and say:
+
+```text
+Read the repo and continue from the latest commit. Use TODO.md as the handoff note.
+```
