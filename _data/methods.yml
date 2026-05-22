@@ -1,9 +1,9 @@
 - tag: Imaging
-  title: Live and Fixed-Sample Microscopy
-  description: Capture cell behaviors, tissue organization, and spatial patterns across experimental conditions.
+  title: Live and Fixed-Cell Microscopy
+  description: Measure organelle morphology, intracellular organization, and dynamic cellular responses across experimental conditions.
 - tag: Molecular
-  title: Genetic and Biochemical Perturbation
-  description: Test causality with targeted perturbations, reporter systems, and pathway-level assays.
+  title: Biosensors and Perturbation
+  description: Use genetically encoded reporters, molecular tools, and pathway-level perturbations to connect organelle state with cellular function.
 - tag: Computation
-  title: Omics and Image Analysis
-  description: Integrate high-dimensional data with reproducible computational workflows.
+  title: Quantitative Image Analysis
+  description: Build reproducible workflows that extract single-cell and subcellular measurements from microscopy data.

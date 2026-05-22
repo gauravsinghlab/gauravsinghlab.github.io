@@ -1,6 +1,15 @@
 - image: /images/mitochondria_cellPanel.png
   alt: Mitochondria and cell imaging panel
   caption: Mitochondria and cell imaging panel.
+- image: /images/Dexter_neha.png
+  alt: Dexter and Neha microscopy image panel
+  caption: Composite microscopy panel from ongoing lab work.
 - image: /images/mitochondria_cellPanel.png
   alt: Mitochondria and cell imaging panel detail
   caption: Representative organelle biology image.
+- image: /images/dexter_neha1.jpeg
+  alt: Dexter and Neha microscopy image
+  caption: Microscopy image highlighting cellular heterogeneity.
+- image: /images/dexter_neha2.jpeg
+  alt: Dexter and Neha microscopy image detail
+  caption: Complementary microscopy view from the same project area.

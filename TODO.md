@@ -7,6 +7,8 @@
 - The layout has been restyled after `https://sumeetpalsingh.github.io/`: compact academic navigation, centered homepage title, text-first sections, simple image row, and restrained styling.
 - Generated/stock imagery was removed.
 - The landing page now uses `images/Yeast_hetrogeneitybig.png` as the first image.
+- The homepage image row now uses three real lab visuals: `Yeast_hetrogeneitybig.png`, `Dexter_neha.png`, and `mitochondria_cellPanel.png`.
+- `research.md` has been updated to match the current lab direction: organelle biology, biosensors, mitochondria, cellular heterogeneity, and quantitative image analysis.
 - Local preview works through `.\preview.ps1` at `http://127.0.0.1:4000/`.
 
 ## Useful Files
@@ -23,9 +25,9 @@
 
 - Replace placeholder member entries in `_data/members.yml`.
 - Add real publication citations in `_data/publications.yml`.
-- Update `research.md` with the lab's actual research directions.
 - Decide whether the homepage image row should show one large image or three equal thumbnails.
 - Confirm whether TIFF files should stay in Git or be converted to web PNG/JPG copies only.
+- Replace generic methods in `_data/methods.yml` with any more specific instrumentation, model systems, or reporter names once confirmed.
 
 ## Prompt For New Codex Session
 
@@ -45,13 +47,13 @@ The project folder is shared/synced between computers. Before switching machines
 git status -sb
 ```
 
-Expected current state:
+Expected shape:
 
 ```text
-## main...gauravsinghlab/main [ahead 5]
+## main...gauravsinghlab/main [ahead N]
 ```
 
-If Git reports a clean working tree, continue working. Do not edit the shared folder from both computers at the same time.
+`N` will vary depending on how many local commits have not been pushed yet. If Git reports a clean working tree, continue working. Do not edit the shared folder from both computers at the same time.
 
 To preview on the other computer:
 

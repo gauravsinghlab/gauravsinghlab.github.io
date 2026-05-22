@@ -19,7 +19,7 @@ description: Research group website for organelle biology, biosensors, and quant
 
   <div class="image-row" aria-label="Research image highlights">
     <img src="{{ '/images/Yeast_hetrogeneitybig.png' | relative_url }}" alt="Yeast heterogeneity microscopy image">
-    <img src="{{ '/images/mitochondria_cellPanel.png' | relative_url }}" alt="Mitochondria and cell imaging panel detail">
+    <img src="{{ '/images/Dexter_neha.png' | relative_url }}" alt="Dexter and Neha microscopy image panel">
     <img src="{{ '/images/mitochondria_cellPanel.png' | relative_url }}" alt="Mitochondria and cell imaging panel detail">
   </div>
 
