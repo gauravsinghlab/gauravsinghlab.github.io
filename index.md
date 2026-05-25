@@ -4,24 +4,17 @@ title: Home
 description: Research group website for organelle biology, biosensors, and quantitative biology.
 ---
 
-<section class="home-title">
-  <h1>Organelle Biology</h1>
-  <ul class="profile-links" aria-label="Research group profiles">
-    <li><a href="{{ site.scholar_url }}" rel="noreferrer">Google Scholar</a></li>
-    <li><a href="{{ site.orcid_url }}" rel="noreferrer">ORCID</a></li>
-    <li><a href="{{ site.github_url }}" rel="noreferrer">GitHub</a></li>
-  </ul>
-</section>
-
 <section class="content-flow">
-  <h3>Welcome to the Gaurav Singh Research Group</h3>
-  <p>Our research is driven by a desire to understand how organelles preserve cellular function, communicate with one another, and adapt during stress. We are especially interested in mitochondria, intracellular signaling, and biosensor-based approaches that make dynamic biological states visible in living systems.</p>
-
   <div class="image-row" aria-label="Research image highlights">
     <img src="{{ '/images/Yeast_hetrogeneitybig.png' | relative_url }}" alt="Yeast heterogeneity microscopy image">
-    <img src="{{ '/images/Dexter_neha.png' | relative_url }}" alt="Dexter and Neha microscopy image panel">
     <img src="{{ '/images/mitochondria_cellPanel.png' | relative_url }}" alt="Mitochondria and cell imaging panel detail">
   </div>
+
+  <section class="home-title">
+    <h1>Do what works. But do something</h1>
+  </section>
+
+  <h3>Welcome to our Research Group</h3>
 
   <p>At the Singh Lab, we combine cell biology, microscopy, molecular tools, and quantitative analysis to investigate organelle behavior in health and disease. Our work asks how intracellular compartments sense perturbation, how their responses shape cellular decisions, and how engineered reporters can reveal mechanisms that are otherwise difficult to measure.</p>
 
