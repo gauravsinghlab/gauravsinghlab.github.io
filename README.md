@@ -1,6 +1,6 @@
 # GS Research Group Website
 
-Jekyll GitHub Pages website for a research group.
+Jekyll GitHub Pages website for the Gaurav Singh Lab at SNIoE.
 
 ## Edit Content
 
@@ -24,13 +24,13 @@ Jekyll GitHub Pages website for a research group.
 - `_posts/`: news posts
 - `assets/css/styles.css`: site styling
 - `images/brand/`: header logo and brand assets
-- `images/home/`: homepage slideshow images
+- `images/home/`: homepage hero and slideshow images
 - `images/gallery/`: gallery-specific web images if needed
 - `images/raw/`: original source images such as TIFFs
 - `_data/brand.yml`: brand/logo image paths
 - `_data/homepage.yml`: homepage slideshow image list
 
-Replace placeholder names, emails, addresses, publications, and group text with verified information before publishing.
+Replace placeholder names, emails, addresses, publications, and group text with verified information before publishing. The homepage hero text currently sits on top of the image in a left-aligned overlay panel.
 
 Image organization:
 
@@ -52,6 +52,8 @@ Then open:
 ```text
 http://127.0.0.1:4000/
 ```
+
+If you change content or CSS, rerun `.\preview.ps1` or the preview builder so the served site reflects the latest files.
 
 If Ruby is installed, the full Jekyll preview also works:
 
