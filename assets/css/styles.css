@@ -263,6 +263,52 @@ a:hover {
   line-height: 1.6;
 }
 
+.page-intro h1 {
+  color: #f1e3a4;
+  font-family: "Inter", system-ui, sans-serif;
+  font-size: clamp(1.3rem, 2.4vw, 1.7rem);
+  font-weight: 400;
+  line-height: 1.35;
+  letter-spacing: 0;
+}
+
+.page-intro p {
+  max-width: 700px;
+  color: #b8c0ca;
+  font-family: "Inter", system-ui, sans-serif;
+  font-size: 1rem;
+  line-height: 1.72;
+}
+
+.page-intro a,
+.section-accent a {
+  color: #fbf4d7;
+  text-decoration: underline;
+  text-decoration-color: rgba(244, 231, 166, 0.75);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 0.16em;
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    transparent 64%,
+    rgba(244, 231, 166, 0.12) 64%,
+    rgba(244, 231, 166, 0.12) 100%
+  );
+}
+
+.page-intro a:hover,
+.section-accent a:hover {
+  color: #f4e7a6;
+  text-decoration-color: #f4e7a6;
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    transparent 56%,
+    rgba(244, 231, 166, 0.2) 56%,
+    rgba(244, 231, 166, 0.2) 100%
+  );
+}
+
 .publications-intro h1 {
   color: #f4e7a6;
   font-size: clamp(1.3rem, 2.4vw, 1.7rem);
@@ -278,8 +324,10 @@ a:hover {
 }
 
 .section-accent {
-  color: #d8d0b4;
+  color: #b8c0ca;
   font-family: "Inter", system-ui, sans-serif;
+  font-size: 1rem;
+  line-height: 1.72;
 }
 
 .section-accent h2,
@@ -292,27 +340,33 @@ a:hover {
   font-weight: 400;
 }
 
+.section-accent h2,
+.section-accent .section-heading h2,
+.section-accent .contact-card h2,
+.section-accent .year-heading {
+  font-size: clamp(1.35rem, 2.6vw, 1.85rem);
+  line-height: 1.35;
+}
+
+.section-accent h3 {
+  color: #efe4b2;
+  font-size: clamp(1.05rem, 2vw, 1.2rem);
+  line-height: 1.45;
+}
+
 .section-accent p,
 .section-accent li,
 .section-accent figcaption,
 .section-accent .section-heading p,
 .section-accent .contact-list,
 .section-accent .news-card time {
-  color: #c7bea0;
+  color: #aeb7c2;
 }
 
 .section-accent a,
 .section-accent .news-card h3 a,
 .section-accent .contact-card a {
-  color: #f6f1dd;
-}
-
-.section-accent a:hover,
-.section-accent .news-card h3 a:hover,
-.section-accent .contact-card a:hover {
-  color: #f4e7a6;
-  text-decoration: underline;
-  text-underline-offset: 0.16em;
+  color: #fbf4d7;
 }
 
 .section-accent .feature-card,
@@ -332,7 +386,7 @@ a:hover {
 .section-accent .feature-card p,
 .section-accent .news-card p,
 .section-accent .contact-card p {
-  color: #c7bea0;
+  color: #aeb7c2;
 }
 
 .section-accent .contact-list strong,
@@ -729,6 +783,22 @@ a:hover {
 
 .contact-list li + li {
   margin-top: 0.5rem;
+}
+
+.contact-card h3 {
+  margin-top: 1.4rem;
+}
+
+.contact-card h2 + h3 {
+  margin-top: 0.9rem;
+}
+
+.contact-card h3 + p {
+  margin-top: 0.5rem;
+}
+
+.contact-card p + h3 {
+  margin-top: 1.6rem;
 }
 
 .button,

@@ -6,30 +6,21 @@ permalink: /research/
 ---
 
 <section class="page-hero">
-  <div class="wrap members-intro publications-intro">
-    <h1>Organelle biology, biosensors, and quantitative cell biology.</h1>
-    <p>We study how intracellular compartments sense stress, communicate with one another, and shape cellular decisions in living systems.</p>
+  <div class="wrap members-intro page-intro">
+    <h1>Current focus</h1>
+    <p>Our research is broadly organized around three connected areas.</p>
   </div>
 </section>
 
 <section class="wrap content-flow section-accent">
-  <h2>Research Direction</h2>
-  <p>The Gaurav Singh Research Group investigates how organelles maintain cellular function during changing physiological conditions. Our work focuses on mitochondria, organelle communication, stress adaptation, and the development of reporters that make dynamic intracellular states measurable in living cells.</p>
+  <h2>1. How do cells sense and regulate mitochondrial membrane fluidity?</h2>
+  <p>The inner mitochondrial membrane is where respiration and energy production happen. For this membrane to work well, it must maintain the right physical state - not too rigid, not too fluid. Our <a href="https://doi.org/10.1073/pnas.2213241120" rel="noreferrer">previous</a> work showed that cells actively regulate the fluidity of this membrane in response to respiratory demand. We now ask how cells sense this membrane state, how they restore it after stress, and which lipids, proteins, and signalling pathways regulate it.</p>
 
-  <p>We combine microscopy, molecular perturbation, biosensor engineering, and quantitative image analysis to ask how organelle behavior is regulated, how cellular heterogeneity emerges, and how stress responses influence health and disease-relevant biology.</p>
+  <h2>2. Building tools to measure and perturb membrane physical state</h2>
+  <p>Many important biological processes are hard to study because we cannot directly see or control them in living cells. We develop fluorescence-based tools to measure membrane organization, fluidity, redox state, and organelle dynamics. This includes chemical probes, genetically targeted biosensors, fluorescence-lifetime imaging, and new approaches to perturb membrane state with spatial and temporal control.</p>
 
-  <h2>Current Questions</h2>
-  <ul class="method-list">
-    <li><strong>How do organelles adapt during cellular stress?</strong> We examine changes in organelle morphology, distribution, function, and signaling as cells respond to perturbation.</li>
-    <li><strong>How do mitochondria communicate with the rest of the cell?</strong> We study mitochondrial dynamics and signaling pathways that connect organelle state to broader cellular outcomes.</li>
-    <li><strong>How can biosensors reveal hidden biological states?</strong> We use genetically encoded reporters and live imaging to follow signaling, metabolism, and organelle physiology over time.</li>
-    <li><strong>How does cellular heterogeneity arise?</strong> We use quantitative imaging and analysis workflows to measure cell-to-cell variation and identify patterns that are difficult to see from population averages.</li>
-  </ul>
-
-  <h2>Approach</h2>
-  <p>The lab uses live and fixed-cell microscopy, molecular biology, reporter systems, image analysis, and computational workflows. We place emphasis on measurements that preserve single-cell information and connect visual phenotypes to testable mechanisms.</p>
-
-  <p>Our projects are designed around clear biological questions, reproducible analysis, and careful interpretation of dynamic cellular behavior.</p>
+  <h2>3. Using machine learning to understand and design biological tools</h2>
+  <p>We are also interested in using protein language models and related approaches to help design better biosensors, fluorescent proteins, and molecular tools for cell biology. We are also interested in using AI/ML pipelines to analyse microscopy images, extract meaningful biological features, and follow cell-state changes over time.</p>
 </section>
 
 <section class="section-band">

@@ -210,7 +210,6 @@ def render_footer(site: Dict[str, Any]) -> str:
     <p>&copy; {year} {html.escape(site.get('title', 'Site'))}</p>
     <ul class="footer-links">
       <li><a href="{relative_url('/contact/', site)}">Contact</a></li>
-      <li><a href="{site.get('github_url', '#')}" rel="noreferrer">GitHub</a></li>
       <li><a href="{site.get('orcid_url', '#')}" rel="noreferrer">ORCID</a></li>
     </ul>
   </div>

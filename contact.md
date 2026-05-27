@@ -6,7 +6,7 @@ permalink: /contact/
 ---
 
 <section class="page-hero">
-  <div class="wrap members-intro publications-intro">
+  <div class="wrap members-intro page-intro">
     <h1>Prospective students and collaborators are welcome to get in touch.</h1>
   </div>
 </section>
@@ -15,16 +15,19 @@ permalink: /contact/
   <article class="contact-card">
     <h2>Contact Information</h2>
     <ul class="contact-list">
-      <li><strong>Email:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-      <li><strong>Profiles:</strong> <a href="{{ site.scholar_url }}" rel="noreferrer">Google Scholar</a> | <a href="{{ site.orcid_url }}" rel="noreferrer">ORCID</a></li>
+      <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+      <li><a href="{{ site.scholar_url }}" rel="noreferrer">Google Scholar</a> | <a href="{{ site.orcid_url }}" rel="noreferrer">ORCID</a></li>
     </ul>
   </article>
   <article class="contact-card">
-    <h2>Joining the Group</h2>
-    <p>Students interested in research projects should send a short note describing their background, research interests, and relevant skills. Include a CV and any transcripts or writing samples required by the program.</p>
-    <div class="button-row">
-      <a class="button" href="mailto:{{ site.email }}">Send Email</a>
-      <a class="button" href="{{ '/members/' | relative_url }}">Meet Members</a>
-    </div>
+    <h2>Open Opportunities</h2>
+    <h3>Postdocs</h3>
+    <p>We do not have funded postdoctoral positions open yet. However, postdocs interested in applying for fellowships such as DBT-RA, N-PDF, or related schemes are very welcome to contact Gaurav.</p>
+
+    <h3>PhD students / JRFs</h3>
+    <p>We are recruiting PhD students through the SNU PhD programme. We also welcome JRFs who have their own funding and are interested in joining the lab.</p>
+    
+    <h3>Undergraduates</h3>
+    <p>We encourage motivated undergraduates to get in touch, especially those interested in fluorescence imaging, cell biology, chemical probes, microscopy, or machine learning. Please write with a short note about your interests and what you hope to learn and contribute to our research.</p>
   </article>
 </section>
