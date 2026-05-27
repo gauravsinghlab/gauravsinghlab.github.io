@@ -16,7 +16,6 @@ Jekyll GitHub Pages website for the Gaurav Singh Lab at SNIoE.
 - `_includes/footer.html`: shared footer
 - `_layouts/default.html`: shared page layout
 - `_layouts/post.html`: news post layout
-- `_data/members.yml`: editable member data
 - `_data/publications.yml`: editable publications data
 - `_data/research.yml`: editable research themes
 - `_data/methods.yml`: editable methods

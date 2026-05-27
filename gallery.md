@@ -6,12 +6,12 @@ permalink: /gallery/
 ---
 
 <section class="page-hero">
-  <div class="wrap members-intro">
+  <div class="wrap members-intro publications-intro">
     <h1>Images from research, teaching, and group life.</h1>
   </div>
 </section>
 
-<section class="wrap">
+<section class="wrap section-accent">
   <div class="gallery-grid">
     {% for item in site.data.gallery %}
       <figure class="gallery-card">

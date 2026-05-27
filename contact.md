@@ -6,12 +6,12 @@ permalink: /contact/
 ---
 
 <section class="page-hero">
-  <div class="wrap members-intro">
+  <div class="wrap members-intro publications-intro">
     <h1>Prospective students and collaborators are welcome to get in touch.</h1>
   </div>
 </section>
 
-<section class="wrap contact-grid">
+<section class="wrap contact-grid section-accent">
   <article class="contact-card">
     <h2>Contact Information</h2>
     <ul class="contact-list">

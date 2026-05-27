@@ -6,13 +6,13 @@ permalink: /research/
 ---
 
 <section class="page-hero">
-  <div class="wrap members-intro">
+  <div class="wrap members-intro publications-intro">
     <h1>Organelle biology, biosensors, and quantitative cell biology.</h1>
     <p>We study how intracellular compartments sense stress, communicate with one another, and shape cellular decisions in living systems.</p>
   </div>
 </section>
 
-<section class="wrap content-flow">
+<section class="wrap content-flow section-accent">
   <h2>Research Direction</h2>
   <p>The Gaurav Singh Research Group investigates how organelles maintain cellular function during changing physiological conditions. Our work focuses on mitochondria, organelle communication, stress adaptation, and the development of reporters that make dynamic intracellular states measurable in living cells.</p>
 
@@ -33,7 +33,7 @@ permalink: /research/
 </section>
 
 <section class="section-band">
-  <div class="wrap">
+  <div class="wrap section-accent">
     <div class="section-heading">
       <h2>Tools for measuring organelle behavior in living systems.</h2>
     </div>

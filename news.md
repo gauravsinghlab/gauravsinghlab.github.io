@@ -6,12 +6,12 @@ permalink: /news/
 ---
 
 <section class="page-hero">
-  <div class="wrap members-intro">
+  <div class="wrap members-intro publications-intro">
     <h1>Updates from the group.</h1>
   </div>
 </section>
 
-<section class="wrap">
+<section class="wrap section-accent">
   <div class="news-grid">
     {% for post in site.posts %}
       <article class="news-card">
